@@ -1,0 +1,126 @@
+/* Root background for the game */
+.root {
+    -fx-background-image: url("/img.jpeg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-font-family: "Georgia"; /* You can replace this with a Harry Potter-inspired font */
+}
+
+/* Button styling */
+.button {
+    -fx-font-size: 20px; /* Slightly larger font for visibility */
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-width: 3px;
+    -fx-text-fill: #000000; /* Black text for better contrast */
+}
+
+
+.button:hover {
+    -fx-opacity: 1;
+    -fx-effect: dropshadow(gaussian, #6A0DAD, 20, 0.9, 0, 0); /* Strong yellow glow on hover */
+    -fx-cursor: hand;
+}
+
+/* Start Button (Green Theme) */
+.start-button {
+    -fx-background-color: linear-gradient(to bottom, #50C878, #3CB371); /* Green gradient */
+    -fx-border-color: #228B22; /* Dark green border */
+    -fx-border-width: 3px;
+    -fx-border-radius: 15px; /* Rounded corners */
+    -fx-background-radius: 15px;
+    -fx-text-fill: white; /* White text for contrast */
+    -fx-font-family: 'Georgia';
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0.3, 2, 2); /* Subtle drop shadow */
+}
+
+.start-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #3CB371, #50C878); /* Reverse gradient */
+    -fx-border-color: #32CD32; /* Bright green on hover */
+    -fx-effect: dropshadow(gaussian, #50C878, 15, 0.8, 0, 0); /* Glowing green effect */
+    -fx-cursor: hand; /* Change cursor to pointer */
+}
+
+/* Quit Button (Red Theme) */
+.quit-button {
+    -fx-background-color: linear-gradient(to bottom, #DC143C, #8B0000); /* Red gradient */
+    -fx-border-color: #8B0000; /* Dark red border */
+    -fx-border-width: 3px;
+    -fx-border-radius: 15px; /* Rounded corners */
+    -fx-background-radius: 15px;
+    -fx-text-fill: white; /* White text for contrast */
+    -fx-font-family: 'Georgia';
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0.3, 2, 2); /* Subtle drop shadow */
+}
+
+.quit-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #8B0000, #DC143C); /* Reverse gradient */
+    -fx-border-color: #FF4500; /* Bright red on hover */
+    -fx-effect: dropshadow(gaussian, #DC143C, 15, 0.8, 0, 0); /* Glowing red effect */
+    -fx-cursor: hand; /* Change cursor to pointer */
+}
+
+/* Styling for the game status text */
+.game-status {
+    -fx-font-size: 36px; /* Match the size to the heading */
+    -fx-font-family: 'Georgia'; /* Same font as the heading */
+    -fx-font-weight: bold; /* Bold to stand out */
+    -fx-text-fill: #8A2BE2; /* Deep Purple Text */
+    -fx-effect: dropshadow(gaussian, #6A0DAD, 15, 0.5, 0, 0); /* Subtle glowing effect */
+    -fx-alignment: center; /* Center align the text */
+    -fx-padding: 10; /* Add spacing around the text */
+}
+
+/* Restart Button (Blue Theme) */
+.restart-button {
+    -fx-background-color: linear-gradient(to bottom, #1E90FF, #4682B4); /* Blue gradient */
+    -fx-border-color: #4682B4; /* Dark blue border */
+    -fx-border-width: 3px;
+    -fx-border-radius: 15px; /* Rounded corners */
+    -fx-background-radius: 15px;
+    -fx-text-fill: white; /* White text for contrast */
+    -fx-font-family: 'Georgia';
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0.3, 2, 2); /* Subtle drop shadow */
+}
+
+.restart-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #4682B4, #1E90FF); /* Reverse gradient */
+    -fx-border-color: #87CEEB; /* Light blue on hover */
+    -fx-effect: dropshadow(gaussian, #1E90FF, 15, 0.8, 0, 0); /* Glowing blue effect */
+    -fx-cursor: hand; /* Change cursor to pointer */
+}
+
+/* Quit Button (Red Theme - Same as Start Screen) */
+.quit-button {
+    -fx-background-color: linear-gradient(to bottom, #DC143C, #8B0000); /* Red gradient */
+    -fx-border-color: #8B0000; /* Dark red border */
+    -fx-border-width: 3px;
+    -fx-border-radius: 15px; /* Rounded corners */
+    -fx-background-radius: 15px;
+    -fx-text-fill: white; /* White text for contrast */
+    -fx-font-family: 'Georgia';
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0.3, 2, 2); /* Subtle drop shadow */
+}
+
+.quit-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #8B0000, #DC143C); /* Reverse gradient */
+    -fx-border-color: #FF4500; /* Bright red on hover */
+    -fx-effect: dropshadow(gaussian, #DC143C, 15, 0.8, 0, 0); /* Glowing red effect */
+    -fx-cursor: hand; /* Change cursor to pointer */
+}
+

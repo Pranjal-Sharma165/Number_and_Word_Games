@@ -1,0 +1,24 @@
+"Can you implement a timer in JavaFX to add a time-based challenge for the game?"
+"Can you implement a system to generate random sequences of numbers and words for each level of the game?"
+"How can I ensure the difficulty of the game increases with each level?"
+"Can you implement a mechanism to show a 'Congratulations' message after completing all 10 levels?"
+"Can you suggest a design to highlight the sequence text for better visibility?"
+"How can I style the buttons to make them visually distinct between active and disabled states?"
+"Can you create a dialog box that appears when the game ends, showing the final score and asking if the user
+wants to play again?"
+"Can you implement a countdown timer in JavaFX for each level, with visual feedback using a progress bar?"
+"What’s the best way to handle timeout events when the player fails to enter the sequence in time?"
+"Can you ensure the start button is disabled after the game begins and only re-enabled when the game is reset?"
+"How can I apply CSS styles to make the UI visually appealing, like adding custom fonts and colors?"
+"How can I highlight the sequence on the screen for a brief period before hiding it?"
+
+When working with the AI to implement the sequence highlighting feature for the Escape Room game, the experience
+was both rewarding and occasionally frustrating. The best part was the AI's ability to quickly suggest practical
+solutions, such as using JavaFX threads and `Platform.runLater` to display the sequence for a specific duration,
+combined with CSS for visual emphasis. It provided a clear pathway to handle the challenge of showing and hiding
+the sequence dynamically. However, the worst part was ensuring the AI fully understood the context of the game's
+flow and the dependencies between components like `GameEngine` and `GameUI`. There were moments of miscommunication
+where suggestions didn't align with the game's structure, requiring multiple clarifications. Despite this, the
+overall collaboration was productive, and the AI's guidance significantly streamlined the development process.
+
+

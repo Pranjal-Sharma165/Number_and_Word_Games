@@ -1,0 +1,117 @@
+/* Background Panel */
+#ui-container {
+    -fx-background-color: rgba(0, 0, 0, 0.7);
+    -fx-padding: 20px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-alignment: center;
+    -fx-max-width: 400px;
+}
+/* Story Label */
+#story-label {
+    -fx-font-family: "Georgia";
+    -fx-font-size: 18px;
+    -fx-text-fill: white;
+    -fx-wrap-text: true;
+}
+
+/* Sequence Label */
+#sequence-label {
+    -fx-font-family: "Courier New";
+    -fx-font-size: 22px;
+    -fx-text-fill: #00FFFF ;
+    -fx-font-weight: bold;
+    -fx-padding: 5px;
+}
+
+/* Sequence Text */
+#sequence-text {
+    -fx-font-family: "Courier New";
+    -fx-font-size: 24px;
+    -fx-fill: #7fffd4; /* Changed to Aquamarine color */
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+    -fx-padding: 10px 0;
+    -fx-effect: dropshadow(gaussian, rgba(0, 255, 255, 0.85), 4, 0, 0, 2); /* Soft glowing effect */
+}
+
+
+
+/* Error Label */
+#error-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: red;
+    -fx-padding: 5px;
+}
+
+/* Text Field */
+#input-field {
+    -fx-font-size: 16px;
+    -fx-background-color: #222;
+    -fx-text-fill: white;
+    -fx-border-color: #555;
+    -fx-border-radius: 5;
+    -fx-padding: 5px;
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.2), 5, 0, 0, 0);
+}
+
+/* Buttons */
+#start-button, #submit-button {
+    -fx-font-size: 16px;
+    -fx-background-color: #4caf50;
+    -fx-text-fill: white;
+    -fx-border-radius: 5;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+}
+
+#start-button:hover, #submit-button:hover {
+    -fx-background-color: #45a049;
+}
+
+#start-button:disabled, #submit-button:disabled {
+    -fx-background-color: #888;
+    -fx-text-fill: #ccc;
+}
+
+#quit-button {
+    -fx-font-size: 16px;
+    -fx-background-color: #d9534f;
+    -fx-text-fill: white;
+    -fx-border-radius: 5;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+}
+
+#quit-button:hover {
+    -fx-background-color: #c9302c;
+}
+#central-box {
+    -fx-background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    -fx-padding: 20px;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+    -fx-alignment: center;
+    -fx-max-width: 400px; /* Adjusted for narrow width */
+    -fx-spacing: 10px; /* Reduced spacing */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0.5, 0, 2); /* Subtle shadow */
+}
+
+#level-label {
+    -fx-font-size: 18px;
+    -fx-text-fill: lightblue;
+    -fx-padding: 10px 0;
+}
+.progress-bar {
+    -fx-accent: linear-gradient(to right, #00ff00, #ffff00, #ff0000); /* Green to Yellow to Red */
+    -fx-background-radius: 10; /* Smooth rounded corners */
+    -fx-border-radius: 10; /* Match the rounded corners */
+}
+
+.progress-bar {
+    -fx-accent: #d93253; /* Solid Green */
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}
+
+

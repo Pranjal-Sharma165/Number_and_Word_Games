@@ -1,0 +1,32 @@
+lesson 1: initializers in class CountdownTimer
+          overloading in class GameEngine (constructor logic)
+
+lesson 2: inheritance in class MainGame (extends Application)
+          exceptions in GameUI (try-catch for threads and Platform.runLater)
+
+lesson 3: overriding in class MainGame (start method)
+          substitution in GameUI (polymorphism with Button actions)
+
+lesson 4: abstract methods in class CountdownTimer (if applicable)
+          abstract classes in JavaFX (Application, etc.)
+
+lesson 5: collections in GameEngine (List usage for sequences)
+          iterator in GameUI (input validation logic with List processing)
+
+lesson 6: lambda expressions in GameUI (used for event handling)
+          method references in GameUI (e.g., Platform.runLater)
+          nested classes in GameUI (used for countdown timer interaction)
+
+lesson 7: Lambda expressions in GameUI (e.g., event handlers for buttons like
+          startButton.setOnAction(e -> startGame())).
+
+lesson 8: scanner replaced by TextField in GameUI
+          streams and filters in GameEngine (stream API used in sequence generation)
+
+lesson 9: GUI in class GameUI
+
+lesson 10: unit tests possible in GameEngineTest (not provided but should be added)
+
+lesson 11: design pattern in class GameUI (MVC pattern: GameEngine as Model, GameUI as View/Controller)
+
+lesson 12: concurrency in class CountdownTimer (thread for countdown)
